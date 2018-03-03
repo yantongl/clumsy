@@ -8,8 +8,8 @@ if _ACTION == 'clean' then
     os.rmdir('./obj_gmake')
 end
 
-local LIB_DIVERT_VC11 = 'external/WinDivert-1.1.7-MSVC'
-local LIB_DIVERT_MINGW = 'external/WinDivert-1.1.7-MINGW'
+local LIB_DIVERT_VC11 = 'external/WinDivert-1.3.0-WDDK'
+local LIB_DIVERT_MINGW = 'external/WinDivert-1.3.0-MINGW'
 local LIB_IUP_WIN32_VC11 = 'external/iup-3.16_Win32_dll11_lib'
 local LIB_IUP_WIN64_VC11 = 'external/iup-3.16_Win64_dll11_lib'
 local LIB_IUP_WIN32_MINGW = 'external/iup-3.16_Win32_mingw4_lib'
